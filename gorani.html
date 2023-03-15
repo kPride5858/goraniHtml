@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="ANSI">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>고라니 랜드에 온걸 어 잘오고</title>
@@ -21,5 +21,7 @@
     <img src="고라니1.jpg">
     <div class="friendly-gorani">나는 낭만 고라니야 께에하구나?</div>
 </body>
+<!--utf-8에서 한글은 3~4바이트를 잡아먹는다. 반면 ANSI는 2바이트를 잡아먹어 효율적이다. pc에서 인코딩 방식은 보통 utf16 리틀엔디안을 표준으로 삼는다. 이 인코딩 방식은 영어든 한글이든, 공백이든 엔터든 무조건 2바이트를 잡아먹게 만들어졌다. 그러므로 계산하기 편하다.
+여기서 리틀엔디안이란 맨 첫번지가 제일 높은 숫자고, 맨 마지막이 제일 낮은 순서라는 거다. 예를들어서 4 3 2 1. 제일 큰 수인 4가 맨 앞에 있다. 제일 작은 수인 1이 맨 뒤에 있다. 빅 엔디안은 이의 반대이다.-->
 
 </html>
